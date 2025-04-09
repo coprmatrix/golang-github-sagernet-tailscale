@@ -1,0 +1,11 @@
+<services>
+  <service name="go2rpm" mode="manual">
+     <param name="goipath">github.com/sagernet/tailscale</param>
+  </service>
+  <service name="perl_regex" mode="manual">
+     <param name="regexfile">regex.pl</param>
+     <param name="file">*.spec</param>
+  </service>
+  <service name="download_files" mode="manual">
+  </service>
+</services>
